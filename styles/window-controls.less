@@ -11,38 +11,30 @@
 .toolbar-window-controls button {
   background-color: @background-secondary;
   background-position: center;
-  float: none;
-  opacity: 1;
   margin: 0;
-  transform: scaleY(1);
   border-radius: 100%;
-  // transition-duration: 150ms;
-  // transition-property: border-radius, opacity, transform;
 }
 
-// .toolbar-window-controls:hover button {
-//   opacity: 1;
-//   border-radius: 100%;
-//   transform: scaleY(1);
-// }
+.toolbar-window-controls:hover button {
+  background-color: fade(@background-tertiary, 30%);
+}
 
+// Close Button
 .toolbar-window-controls .close {
   background-color: fade(@danger, 30%);
   background-image: url("@{iconurl}window-close.svg") !important;
 }
 
+.toolbar-window-controls:hover .close {
+  background-color: fade(@danger, 30%);
+}
+
+// Minimize Button
 .toolbar-window-controls .minimize {
   background-image: url("@{iconurl}window-minimize.svg") !important;
 }
 
+// Maximize Button
 .toolbar-window-controls .maximize {
   background-image: url("@{iconurl}window-maximize.svg") !important;
 }
-
-// .is-blurred {
-//   .toolbar-window-controls .close,
-//   .toolbar-window-controls .minimize,
-//   .toolbar-window-controls .maximize {
-//     background-color: fade(@text-color, 50%);
-//   }
-// }
