@@ -9,4 +9,4 @@ A Dark theme based on Adiwaita Colours for the Mailspring email client.
     Alternatively you can click on the code button and then download and extract the zip folder
 
 2. In Mailspring go to Edit > Install Theme
-3. Select the `package.json` file.
+3. Select the `package.json` file in the theme folder.
