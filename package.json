@@ -1,0 +1,12 @@
+{
+  "name": "dark-adwaita",
+  "displayName": "Dark Adwaita",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "A dark theme based on Adwaita for Mailspring.",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  },
+  "private": true
+}
