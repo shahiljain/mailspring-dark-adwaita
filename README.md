@@ -1,6 +1,8 @@
 # Dark Adwaita
 A Dark theme based on Adiwaita Colours for the Mailspring email client.
 
+<img width="1920" height="1043" alt="image" src="https://github.com/user-attachments/assets/e4758a64-e1ba-4057-87a0-76e4d5894fd2" />
+
 ## Installation
 1. Download the git repository using the following command
     ```
