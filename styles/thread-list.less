@@ -1,0 +1,19 @@
+@import 'ui-variables';
+
+// Making the Threadlist toolbar uniform with the threadlist and add the right borders
+.column-ThreadList,
+.toolbar-ThreadList {
+  height: 100%;
+  background: #1d1d21;
+  border-left: 1px solid @border-color-divider;
+  border-right: 1px solid @border-color-divider;
+  border-bottom: 1px solid @border-color-primary;
+}
+
+// Searchbar Padding Fix
+.toolbar-ThreadList .item-container .key-commands-region.thread-search-bar.placeholder {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}

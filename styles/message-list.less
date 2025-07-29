@@ -1,0 +1,24 @@
+@import 'ui-variables';
+
+// Make toolbars match panels
+.column-MessageList,
+.toolbar-MessageList,
+.column-MessageListSidebar,
+.toolbar-MessageListSidebar {
+  height: 100%;
+  background: @gray-base;
+}
+
+// Attachments
+.file-wrap.file-image-wrap .file-preview .file-name-container {
+  background: @gray-base;
+  min-height: 0;
+  & .file-name {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background: @gray-base;
+    padding: 5px 15px;
+  }
+}
