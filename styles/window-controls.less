@@ -24,18 +24,28 @@
 .toolbar-window-controls .close {
   background-color: fade(@danger, 30%);
   background-image: url("@{iconurl}window-close.svg") !important;
+  order: 3;
 }
 
 .toolbar-window-controls:hover .close {
   background-color: fade(@danger, 30%);
+  order: 3;
 }
 
 // Minimize Button
 .toolbar-window-controls .minimize {
   background-image: url("@{iconurl}window-minimize.svg") !important;
+  order: 1;
 }
 
 // Maximize Button
 .toolbar-window-controls .maximize {
   background-image: url("@{iconurl}window-maximize.svg") !important;
+  order: 2;
+}
+
+.toolbar-RootSidebar {
+  .toolbar-window-controls {
+    display: none;
+  }
 }
