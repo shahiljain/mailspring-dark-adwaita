@@ -11,9 +11,18 @@
 }
 
 // Searchbar Padding Fix
-.toolbar-ThreadList .item-container .key-commands-region.thread-search-bar.placeholder {
+.toolbar-ThreadList .item-container .key-commands-region.thread-search-bar {
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 8px;
+}
+ // Makes the corners attach to the suggestions box properly
+.toolbar-ThreadList .item-container .key-commands-region.focused.thread-search-bar  {
+  border-radius: 8px 8px 0px 0px;
+}
+
+// Uniform border radius on the suggestions list
+.toolbar-ThreadList .item-container .suggestions {
+  border-radius: 0px 0px 8px 8px;
 }
