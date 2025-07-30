@@ -19,12 +19,23 @@
 
 // Compose Button Transparency
 .sheet-toolbar .btn.btn-toolbar.item-compose {
-  background: transparent;
+  background: @accent-primary;
   box-shadow: none;
   opacity: 0.5;
-  margin: 0;
-  height: 100%;
+  height: 70%;
   transition: opacity 200ms;
+  border-radius: 18px;
+  position: relative;
+  &:after {
+    content: 'Compose';
+    left: 100%;
+    margin-left: 4px;
+    color: @text-color;
+    vertical-align: middle;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
   &:hover {
     opacity: 1;
   }
