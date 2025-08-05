@@ -14,11 +14,11 @@ A Dark theme based on Adiwaita Colours for the Mailspring email client.
 3. Select the `package.json` file in the theme folder.
 
 ### Current List of Issues
-1. The tooltip that appears when you send a message or archive a thread is not coloured correctly.
+1. The tooltip that appears when you send a message or archive a thread is not coloured correctly. ✅ Fixed
 2. The window controls shift the icons to the bottom on hover.
 3. The search bar is too wide and touches the edges. ✅ Fixed
 4. Hovering over items in the secondary picker makes them black.
-5. Clicking on the secondary picker makes it 
+5. Clicking on the secondary picker makes corners sharp.
 
 ### List of Features
 1. Rounding out the send button to make it look more like gnome. ✅ Completed
